@@ -1,7 +1,8 @@
-package app
+package dependencyinjection
 
-import dagger.Component
+import sample.TrDatabase
 import javax.inject.Singleton
+import dagger.Component
 
 @Component(modules = [Module::class])
 @Singleton

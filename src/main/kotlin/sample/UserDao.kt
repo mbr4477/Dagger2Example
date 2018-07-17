@@ -1,5 +1,6 @@
-package app
+package sample
 
+import sample.DataStore
 import javax.inject.Inject
 
 class UserDao @Inject constructor(val dataStore: DataStore) {

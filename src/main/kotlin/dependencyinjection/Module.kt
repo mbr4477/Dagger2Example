@@ -1,7 +1,8 @@
-package app
+package dependencyinjection
 
-import dagger.Module
 import dagger.Provides
+import dagger.Module
+import sample.DataStore
 import javax.inject.Singleton
 
 @Module

@@ -1,4 +1,4 @@
-import app.DaggerComponent
+import dependencyinjection.DaggerComponent
 
 fun main(args: Array<String>) {
     val database = DaggerComponent.builder().build().getTrDatabase()
